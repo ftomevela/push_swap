@@ -6,7 +6,7 @@
 /*   By: ftome-ve <ftome-ve@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 16:42:18 by ftome-ve          #+#    #+#             */
-/*   Updated: 2024/06/04 20:16:47 by ftome-ve         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:30:51 by ftome-ve         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,19 +28,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 		dst[i] = '\0';
 	return (ft_strlen(src));
 }
-
-// char	*ft_strdup(const char *str)
-// {
-// 	size_t	len;
-// 	char	*str2;
-
-// 	len = ft_strlen(str);
-// 	str2 = (char *) malloc(len + 1);
-// 	if (str2 == NULL)
-// 		return NULL;
-// 	ft_strlcpy(str2, str, (len + 1));
-// 	return (str2);
-// }
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

@@ -6,16 +6,11 @@
 /*   By: ftome-ve <ftome-ve@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/04 19:11:30 by ftome-ve          #+#    #+#             */
-/*   Updated: 2024/06/05 16:06:07 by ftome-ve         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:29:30 by ftome-ve         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-ssize_t	my_write(int fd, const void *buf, size_t count)
-{
-	return (write(fd, buf, count));
-}
 
 void	process_arguments(char **argv, t_stack **a)
 {

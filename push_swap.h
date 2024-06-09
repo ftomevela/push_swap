@@ -6,7 +6,7 @@
 /*   By: ftome-ve <ftome-ve@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 16:43:30 by ftome-ve          #+#    #+#             */
-/*   Updated: 2024/06/09 16:43:44 by ftome-ve         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:29:45 by ftome-ve         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,6 @@ typedef struct s_stack
 	struct s_stack	*next;
 	struct s_stack	*target;
 }				t_stack;
-
-//***** AUXILIAR FUNTIONS FOR CHECKING WHILE WORK IN PROGRESS*****//
-ssize_t	my_write(int fd, const void *buf, size_t count);
 
 //************ CONTROL FUNTIONS *************************************//
 char	**ft_split(char const *s, char c);

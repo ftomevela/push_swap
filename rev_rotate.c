@@ -6,7 +6,7 @@
 /*   By: ftome-ve <ftome-ve@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 16:06:34 by ftome-ve          #+#    #+#             */
-/*   Updated: 2024/06/07 21:02:01 by ftome-ve         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:30:20 by ftome-ve         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,14 +32,14 @@ void	rra(t_stack **a, int check)
 {
 	rev_rotate(a);
 	if (check == 0)
-		my_write (1, "rra\n", 4);
+		write (1, "rra\n", 4);
 }
 
 void	rrb(t_stack **b, int check)
 {
 	rev_rotate(b);
 	if (check == 0)
-		my_write (1, "rrb\n", 4);
+		write (1, "rrb\n", 4);
 }
 
 void	rrr(t_stack **a, t_stack **b, int check)
@@ -47,5 +47,5 @@ void	rrr(t_stack **a, t_stack **b, int check)
 	rev_rotate(a);
 	rev_rotate(b);
 	if (check == 0)
-		my_write (1, "rrr\n", 4);
+		write (1, "rrr\n", 4);
 }
